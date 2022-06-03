@@ -1,0 +1,61 @@
+
+body{font-family: poppins; overflow-x: hidden;}
+
+nav{background-image: url('./img/bg1.png');}
+a{text-decoration: none;}
+.navbar ul li a{ color: white !important;    font-size: larger;    font-weight: 500;}
+.navbar ul li {margin: 0 20px;}
+.navbar-toggler-icon{background-color:#FFEFBA; border-radius: 10px;}
+.heih img{max-width: 25%;}
+.bg-fade{background-image: linear-gradient(white, #220F08);}
+.quot{font-weight: bolder;color:blanchedalmond;background-image: url('./img/bg1.png');}
+.container-menu .nav-item{padding: 0 5px;}
+.cake-tab{ text-align: '--webkit-center' !important;}
+.order-link{padding:10px; color: #562222; font-size: 24px; }
+/* .cake-tbl tr{border-bottom: 1px solid #AAA3A0;} */
+.cake-tbl td, th{padding : 2px}
+.cake-tbl th, h3{  color: #562222;} h3{text-decoration: underline;}
+.menu-bg{background-image: linear-gradient( #220F08, white);}
+.menu-title{color: #FFEBCD;}
+.tab-content{background-color: #FFEFBA; padding: 20px; border-radius: 20px;}
+.tab-content table{width: 50%;border: 1px solid brown; margin: 5px; border-radius: 20px; height:auto }
+.tab-content table td{padding-left: 10px;}
+.menu-bg li{color: #562222;}
+.nav-tabs button{color: white;}
+button:hover{color: orange;}
+.menu-tbl-display{display: flex;}
+.iframe-container{    position: relative;    width: 50%;    overflow: hidden;    padding-top: 56.25%; border: 2px solid #562222; border-radius: 20px;} 
+.responsive-iframe { position: absolute; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; border: none;  }
+hr.style14 { 
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+  }
+.slogen{color: #52433D;}
+.website-nm{color: #52433D ;background-color: #FFEFBA; padding:10px; border-radius: 20px; cursor: pointer;}
+.social-block {font-size: 40px; }
+.social-block a{color: #562222 !important; margin: 0 5px;}
+
+
+
+@media only screen and (max-width: 990px) {
+    .navbar>.container-fluid{justify-content: space-around;}
+    .iframe-container{  width: 100%; }
+    .nav-link{padding: 0;font-size: 12px;}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .tab-content table{width: 100%;}
+    .menu-tbl-display {      display: block;    }  
+  
+
+
+}
